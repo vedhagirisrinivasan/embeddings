@@ -52,8 +52,12 @@ This Flask API is designed to handle articles, providing endpoints for various o
    pip install -r requirements.txt
    ```
 
+4. Create .env file by verifying the .env.example file variables
 
-4. Create a database and install the uuid extension to create unique id's:
+5. Obtain the openapi key and add it in .env along with db credentials
+
+
+6. Create a database and install the uuid extension to create unique id's:
 
    - On Linux/Ubuntu:
 
